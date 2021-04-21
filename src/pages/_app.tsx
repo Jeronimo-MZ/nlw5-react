@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
         <div className={styles.appWrapper}>
             <main>
                 <Header />
-                <Component {...pageProps} />;
+                <Component {...pageProps} />
             </main>
             <Player />
         </div>
