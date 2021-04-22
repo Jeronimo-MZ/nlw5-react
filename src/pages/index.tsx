@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next";
+import Link from "next/link";
 import api from "./../services/api";
 import Image from "next/image";
 import { format, parseISO } from "date-fns";
@@ -10,7 +11,6 @@ type Episode = {
     id: string;
     title: string;
     thumbnail: string;
-    description: string;
     members: string;
     duration: number;
     durationAsString: string;
@@ -41,7 +41,9 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                 />
 
                                 <div className={styles.episodeDetails}>
-                                    <a href="">{episode.title}</a>
+                                    <Link href={`/episodes/${episode.id}`}>
+                                        <a>{episode.title}</a>
+                                    </Link>
                                     <p>{episode.members}</p>
                                     <span>{episode.publishedAt}</span>
                                     <span>{episode.durationAsString}</span>
@@ -82,7 +84,11 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                                     />
                                 </td>
                                 <td>
-                                    <a href="">{episode.title}</a>
+                                    <Link href={`/episodes/${episode.id}`}>
+                                        <a href={`/episodes/${episode.id}`}>
+                                            {episode.title}
+                                        </a>
+                                    </Link>
                                 </td>
                                 <td>{episode.members}</td>
                                 <td style={{ width: 100 }}>
@@ -109,7 +115,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 export const getStaticProps: GetStaticProps = async () => {
     const { data } = await api.get("/episodes", {
         params: {
-            _limit: 5,
+            _limit: 10,
             _sort: "published_at",
             _order: "desc",
         },
@@ -128,7 +134,6 @@ export const getStaticProps: GetStaticProps = async () => {
             durationAsString: convertDurationToTimeString(
                 Number(episode.file.duration)
             ),
-            description: episode.description,
             url: episode.file.url,
         };
     });
