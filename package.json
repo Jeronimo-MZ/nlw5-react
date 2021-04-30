@@ -1,7 +1,26 @@
 {
     "name": "podcastr",
     "version": "0.1.0",
-    "private": true,
+    "author": "Jerónimo A. Matavel Jr.",
+    "license": "MIT",
+    "description": "Podcastr is a Podcast broadcast platform focused on programming-related topics",
+    "keywords": [
+        "react",
+        "next-js",
+        "typescript",
+        "sass",
+        "scss",
+        "axios",
+        "rocketseat",
+        "ui/ux",
+        "podcast",
+        "next-level-week",
+        "json-server"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jeronimo-mz/nlw5-react"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",

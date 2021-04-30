@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to Podcastr 👋</h1>
+<p align="center">
+  <img src="./.github/logo.svg" />
+</p>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/jeronimo-mz/nlw5-react#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/jeronimo-mz/nlw5-react/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="./LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/jeronimo-mz/nlw5-react" />
+  </a>
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="./.github/Podcastr.png" />
+</p>
 
-First, run the development server:
+> Podcastr is a Podcast broadcast platform focused on programming-related topics
 
-```bash
-npm run dev
-# or
-yarn dev
+## Install Dependecies
+
+```sh
+  yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```zsh
+  # run development Fake server
+  yarn dev:server
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+  # run project
+  yarn dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+open [http://localhost:3000](http://localhost:3000) on your browser.
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+👤 **Jerónimo A. Matavel Jr.**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   Github: [@jeronimo-mz](https://github.com/jeronimo-mz)
+-   LinkedIn: [@jeronimo-matavel](https://linkedin.com/in/jeronimo-matavel)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/jeronimo-mz/nlw5-react/issues).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Show your support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Jerónimo A. Matavel Jr.](https://github.com/jeronimo-mz).<br />
+This project is [MIT](./LICENSE) licensed.
+
+---
+
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
