@@ -39,6 +39,16 @@
 
 open [http://localhost:3000](http://localhost:3000) on your browser.
 
+## Technologies Used
+
+-   [ReactJS](https://reactjs.org/)
+-   [NextJS](https://nextjs.org/)
+-   [TypeScript](https://www.typescriptlang.org/)
+-   [Yarn](https://yarnpkg.com/)
+-   [Sass/Scss](https://sass-lang.com)
+-   [Axios](https://axios-http.com)
+-   [rx-slider](https://slider-react-component.vercel.app)
+
 ## Author
 
 👤 **Jerónimo A. Matavel Jr.**
