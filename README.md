@@ -58,7 +58,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [Jerónimo A. Matavel Jr.](https://github.com/jeronimo-mz).<br />
 This project is [MIT](./LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
